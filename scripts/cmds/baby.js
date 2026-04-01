@@ -3,7 +3,7 @@ const axios = require("axios");
 const mahmud = [
         "baby",
         "bby",
-        "babu",
+        "Alvi",
         "bbu",
         "jan",
         "bot",
@@ -167,10 +167,10 @@ module.exports = {
                 if (event.type !== "message_reply" && mahmud.some(word => message.startsWith(word))) {
                         api.setMessageReaction("🪽", event.messageID, () => {}, true);
                         const randomReplies = [
-                                "babu khuda lagse🥺",
-                                "Hop beda😾,Boss বল boss😼",
+                                "আলভী কে আম্মু ডাক নাহলে তোর আইডি চুদে দেবো😒",
+                                "Hop beda😾,আলভী কে আম্মু ডাক😼",
                                 "আমাকে ডাকলে ,আমি কিন্তূ কিস করে দেবো😘 ",                      
-                                "naw amr boss k message daw m.me/mahmud0x7",
+                                "naw amr alvi queen k message daw m.me/ahmedalvi.okay,
                                 "গোলাপ ফুল এর জায়গায় আমি দিলাম তোমায় মেসেজ",
                                 "বলো কি বলবা, সবার সামনে বলবা নাকি?🤭🤏",
                                 "𝗜 𝗹𝗼𝘃𝗲 𝘆𝗼𝐮__😘😘",
@@ -182,7 +182,7 @@ module.exports = {
                                 "𝙏𝙪𝙢𝙖𝙧 𝙜𝙛 𝙣𝙖𝙞, 𝙩𝙖𝙮 𝙖𝙢𝙠 𝙙𝙖𝙠𝙨𝙤? 😂😂😂",
                                 "আমাকে ডেকো না,আমি ব্যাস্ত আসি🙆🏻‍♀",
                                 "𝗕𝗯𝘆 বললে চাকরি থাকবে না",
-                                "𝗕𝗯𝘆 𝗕𝗯𝘆 না করে আমার বস মানে, MahMUD ,MahMUD ও তো করতে পারো😑?",
+                                "𝗕𝗯𝘆 𝗕𝗯𝘆 না করে আমার কুইন মানে, আলভী আলভী ও তো করতে পারো😑?",
                                 "আমার সোনার বাংলা, তারপরে লাইন কি? 🙈",
                                 "🍺 এই নাও জুস খাও..!𝗕𝗯𝘆 বলতে বলতে হাপায় গেছো না 🥲",
                                 "হটাৎ আমাকে মনে পড়লো 🙄", "𝗕𝗯𝘆 বলে অসম্মান করচ্ছিছ,😰😿",
